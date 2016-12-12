@@ -1,0 +1,22 @@
+{
+  "name": "trix-map",
+  "version": "1.0.0",
+  "description": "Leaflet Angular Wrapper",
+  "main": "src/directives/leaflet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.X",
+    "leaflet": "1.X"
+  },
+   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "4.3.11",
+    "require-dir": "^0.3.1"
+  }
+}

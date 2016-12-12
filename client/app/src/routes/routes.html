@@ -1,0 +1,11 @@
+<button ng-click="weight= weight + 1">inc</button>
+<button ng-click="weight= weight - 1">dec</button>
+{{ weight }}
+<map layers="google" view="[-3.74582, -38.50139]", zoom="12">
+
+  <div ng-repeat="route in data">
+    <marker ng-repeat="stop in route.stops" ng-model="stop.coordinate" click="markerClick(stop.coordinate)"></marker>
+    <polyline ng-model="route.path" weight="weight"></polyline>
+    <polyline options="'runned'" ng-model="route.path"></polyline>    
+  </div>
+</map>

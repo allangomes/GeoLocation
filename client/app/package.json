@@ -1,0 +1,24 @@
+{
+  "name": "trix.routes",
+  "version": "1.0.0",
+  "description": "Routes - Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8001 -c-1 ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.6.0",
+    "angular-route": "1.6.0",
+    "leaflet": "1.0.2",
+    "leaflet.gridlayer.googlemutant": "^0.4.3",
+    "trix-map": "file:///Users/allangomes/dev/study/java/trix/client/trix-map"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "require-dir": "^0.3.1"
+  }
+}
