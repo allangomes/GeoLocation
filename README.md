@@ -26,11 +26,11 @@ Get All Routes
 GET http://localhost:8080/routes/
 ```
 Get Route Path/Polyline
-```
+```http
 GET http://localhost:8080/routes/{routeId}/path
 ```
 Check run away and nearby point
-```
+```http
 POST http://localhost:8080/routes/vehicle/{vehicleId}/checkpoint?lat=-3.726636&lng=-38.508690
 ```
 
